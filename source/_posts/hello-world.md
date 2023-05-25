@@ -8,7 +8,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 ### Create a new post
 
 
-你好字体测试
+你好字体测试jj
 
 ``` bash
 $ hexo new "My New Post"
