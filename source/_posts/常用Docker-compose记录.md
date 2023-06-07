@@ -1,10 +1,15 @@
 ---
 title: 常用Docker-compose记录
 date: 2023-05-11 14:18:31
-description:
+description: 常用Docker-compose记录
 tags:
-categories:
+- Docker
+- Docker compose
+categories: 
+- Docker
 cover: https://s2.loli.net/2023/05/11/XBaie8yEYqchxPS.png
+draft: true
+
 ---
 
 ## #1、nginx_proxy_manager
