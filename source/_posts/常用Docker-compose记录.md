@@ -7,12 +7,10 @@ tags:
 - Docker compose
 categories: 
 - Docker
-cover: https://s2.loli.net/2023/05/11/XBaie8yEYqchxPS.png
 draft: true
-
 ---
 
-## #1、nginx_proxy_manager
+## 1、nginx_proxy_manager
 
 ```yaml
 version: '3'

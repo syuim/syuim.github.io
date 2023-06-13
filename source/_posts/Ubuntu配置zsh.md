@@ -11,13 +11,13 @@ categories:
 description: 记录下如何快速打造下ubuntu的舒服的命令界面。
 ---
 
-## #1.安装zsh
+## 1.安装zsh
 
 ```bash
 sudo apt-get install zsh
 ```
 
-## #2.安装oh-my-zsh
+## 2.安装oh-my-zsh
 
 官网[[Oh My Zsh - a delightful & open source framework for Zsh](https://ohmyz.sh/)]
 
@@ -31,7 +31,7 @@ or
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
-## #3.命令提示插件
+## 3.命令提示插件
 
 安装
 
