@@ -11,7 +11,7 @@ categories:
 description: 记录下如何快速打造下ubuntu的舒服的命令界面。
 ---
 
-![](https://static.laoz.org/AOnLy9.webp)
+![oh-my-zsh](https://static.laoz.org/AOnLy9.webp)
 
 ## 1.安装zsh
 
