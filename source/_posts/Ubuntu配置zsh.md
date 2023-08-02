@@ -11,10 +11,12 @@ categories:
 description: 记录下如何快速打造下ubuntu的舒服的命令界面。
 ---
 
+![](https://static.laoz.org/AOnLy9.webp)
+
 ## 1.安装zsh
 
 ```bash
-sudo apt-get install zsh
+sudo apt-get install zsh -y
 ```
 
 ## 2.安装oh-my-zsh
@@ -42,7 +44,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 修改zsh配置文件，添加插件
 
 ```bash
-vi ~/.zshrc
+nano ~/.zshrc
 ```
 
 添加插件
