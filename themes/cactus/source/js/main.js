@@ -31,6 +31,7 @@ $(document).ready(function() {
 
     /**
      * Display the menu on hi-res laptops and desktops.
+     * to large
      */
     if ($(document).width() >= 1100) {
       menu.show();
