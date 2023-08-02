@@ -7,7 +7,7 @@ title: Laoz's Blog
 subtitle: '老周的博客'
 description: 'Hi there👋🏻, 我是老周，欢迎来到我的博客，随意看看。'
 keywords:
-author: laoz
+author: Laoz
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -103,6 +103,8 @@ theme: cactus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
 
 
 

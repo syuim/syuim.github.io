@@ -1,11 +1,10 @@
 ---
 title: Ubuntu配置oh-My-Zsh
 date: 2023-05-02 16:28:39
-cover: https://cdn.oldchow.cn/js0T69.png
+cover: https://static.laoz.org/AOnLy9.webp
 tags: 
 - Linux
-- Ubuntu
-- Zsh
+- Oh-my-zsh
 categories: 
 - Linux
 description: 记录下如何快速打造下ubuntu的舒服的命令界面。
