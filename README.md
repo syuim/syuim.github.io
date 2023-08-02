@@ -1,1 +1,1 @@
-# laizorg.github.io
+# blog.laoz.org
