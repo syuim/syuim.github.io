@@ -5,7 +5,7 @@
 # Site
 title: Laoz's Blog
 subtitle: '老周的博客'
-description: 'Hi there👋🏻, 我是老周，欢迎来到我的博客，随意看看。'
+description: 'Hi there👋🏻, 我是老周，标准程序员👨🏻‍💻，会一点点Java和Python，喜欢折腾。欢迎来到我的博客，随意看看。'
 keywords:
 author: Laoz
 language: zh-CN
@@ -105,7 +105,19 @@ deploy:
   type: ''
 
 
-
+feed:
+  enable: true
+  type: rss2
+  path: rss.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: logo.png
+  autodiscovery: true
+  template:
 
 
 

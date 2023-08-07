@@ -11,6 +11,7 @@ description: Docker下WorldPress去除上传限制
 ---
 ![[Title](WordpressUploadLimit.md)](https://static.laoz.org/ODFC5W.webp)
 我这边用的是Docker部署的WordPress，但是wp默认的上传限制在3m之内，这样上传个稍微大点的主题直接就嘎了。
+<!-- more -->
 
 如何解决：
 
