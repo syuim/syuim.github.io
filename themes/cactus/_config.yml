@@ -75,7 +75,7 @@ archive:
 # Options:
 #   - show_updated: show the last modification date.
 post:
-  show_updated: false
+  show_updated: true
 
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
@@ -204,7 +204,7 @@ umami_analytics:
   enabled: true
   id: de951896-4377-4e80-8fae-6927a4405705
   host: https://umami.laoz.org
-  script_name: umami.js
+  script_name: script.js
 
 # Fill in you Gravatar email or hash if you want to use your gravatar as the
 # logo and/or favicons of you website.
