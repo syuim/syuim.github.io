@@ -3,10 +3,9 @@ title: Docker下WorldPress去除上传限制
 date: 2023-08-02 16:28:39
 cover: https://static.laoz.org/ODFC5W.webp
 tags: 
-- 建站
 - WordPress
 categories: 
-- 建站
+- WP
 description: Docker下WorldPress去除上传限制
 ---
 ![[Title](WordpressUploadLimit.md)](https://static.laoz.org/ODFC5W.webp)
