@@ -99,7 +99,7 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: /images/dog.png
+  url: https://static.laoz.org/bpkn49.webp
   gravatar: false
   grayout: false
 
@@ -114,13 +114,13 @@ logo:
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon:
   desktop:
-    url: /images/dog.png
+    url: https://static.laoz.org/bpkn49.webp
     gravatar: false
   android:
-    url: /images/dog.png
+    url: https://static.laoz.org/bpkn49.webp
     gravatar: false
   apple:
-    url: /images/dog.png
+    url: https://static.laoz.org/bpkn49.webp
     gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
@@ -141,7 +141,7 @@ page_width: 55
 ##############################################################################
 
 # Enable or disable the RSS feed.
-rss: true
+rss: 
 
 # Turn your web pages into graph objects (see http://ogp.me).
 open_graph:
