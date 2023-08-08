@@ -70,8 +70,6 @@ cdn:
 
 ```
 
-![3c2Feo](https://static.laoz.org/3c2Feo.webp)
-
 然后再全局搜索定位font-family-body，将值"LXGW WenKai Screen R" 添加到最前面就能把改字体作为第一优先级的字体展示。再刷新一下博客就可以看到字体已经变了。
 ![UC4pkO](https://static.laoz.org/UC4pkO.webp)
 
