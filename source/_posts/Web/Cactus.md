@@ -9,6 +9,7 @@ categories:
 date: 2023-08-08 08:14:59
 cover: 
 ---
+![Cactus](https://static.laoz.org/NdlXUE.webp)
 
 Cactus可能是众多Hexo主题中比较小众且满足我个人审美的主题了，但是也有不少bug，这边记录下怎么优化以及新增一些自己需要的功能。
 
