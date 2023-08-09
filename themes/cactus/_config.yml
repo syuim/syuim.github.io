@@ -99,7 +99,7 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: https://static.laoz.org/bpkn49.webp
+  url: /images/dog.png
   gravatar: false
   grayout: false
 
@@ -114,13 +114,13 @@ logo:
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon:
   desktop:
-    url: https://static.laoz.org/bpkn49.webp
+    url: /images/dog.png
     gravatar: false
   android:
-    url: https://static.laoz.org/bpkn49.webp
+    url: /images/dog.png
     gravatar: false
   apple:
-    url: https://static.laoz.org/bpkn49.webp
+    url: /images/dog.png
     gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
