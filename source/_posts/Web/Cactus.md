@@ -87,7 +87,6 @@ cdn:
 <% if(page.comments && theme.twikoo.enabled){ %>
     <div id="tcomment"></div>
 <% } %>
-
 ```
 
 全局搜索comments.ejs,将代码添加到文件末尾,替换自己部署的Twikoo评论的地址到envId后。
