@@ -14,7 +14,8 @@ steps:
     settings:
       host: cu.laoz.org
       username: root
-      password: Zhousaihua1994
+      password: 
+        from_secret: psw
       port: 13223
       target: /root/env/blog
       source: ./public
