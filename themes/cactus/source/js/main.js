@@ -86,7 +86,6 @@ $(document).ready(function() {
       var lastScrollTop = 0;
       $(window).on("scroll", function() {
         var topDistance = $(window).scrollTop();
-
         if (topDistance > lastScrollTop){
           // downscroll -> show menu
           $("#footer-post").hide();
@@ -95,7 +94,6 @@ $(document).ready(function() {
           $("#footer-post").show();
         }
         lastScrollTop = topDistance;
-
         // close all submenu"s on scroll
         $("#nav-footer").hide();
         $("#toc-footer").hide();
@@ -103,9 +101,9 @@ $(document).ready(function() {
 
         // show a "navigation" icon when close to the top of the page, 
         // otherwise show a "scroll to the top" icon
-        if (topDistance < 50) {
+        if (topDistance < 120) {
           $("#actions-footer > #top").hide();
-        } else if (topDistance > 100) {
+        } else if (topDistance > 120) {
           $("#actions-footer > #top").show();
         }
       });
