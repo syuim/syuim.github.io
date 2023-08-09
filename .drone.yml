@@ -10,18 +10,14 @@ steps:
       - npm run build
 
   - name: deploy
-    image: drillster/drone-rsync
-    environment:
-      RSYNC_KEY:
-        from_secret: rsync_key
+    image: appleboy/drone-scp
     settings:
-      user: root
-      hosts:
-      - cu.laoz.org
+      host: cu.laoz.org
+      username: root
+      password: Zhousaihua1994
       port: 13223
-      source: ./public
       target: /root/env/blog
-      delete: true
+      source: ./public
 
 trigger:
   event:
