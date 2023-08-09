@@ -206,7 +206,7 @@ gravatar:
 
 # loads libraries and styles from CDN instead or relying on local files
 cdn:
-  enable: true
+  enable: false
   # twikoo: https://cdn.bootcdn.net/ajax/libs/twikoo/1.6.17/twikoo.all.min.js
   jquery: https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js
   clipboard: https://cdn.bootcdn.net/ajax/libs/clipboard.js/2.0.11/clipboard.min.js
