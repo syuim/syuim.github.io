@@ -123,8 +123,8 @@ sitemap:
   path: 
     - sitemap.xml
     - sitemap.txt
-  template: ./sitemap_template.xml
-  template_txt: ./sitemap_template.txt
+  template: ./sitemap.xml
+  template_txt: ./sitemap.txt
   rel: false
   tags: true
   categories: true
