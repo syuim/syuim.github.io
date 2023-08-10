@@ -3,16 +3,6 @@ type: docker
 name: default
 
 steps:
-  - name: restore-cache
-    image: drillster/drone-volume-cache
-    volumes:
-      - name: cache
-        path: /cache
-    settings:
-      restore: true
-      mount:
-        - ./node_modules
-
   - name: build
     image: node
     commands:
@@ -34,21 +24,6 @@ steps:
     image: curlimages/curl
     commands:
       - /bin/sh bark.sh
-
-  - name: rebuild-cache
-    image: drillster/drone-volume-cache
-    volumes:
-      - name: cache
-        path: /cache
-    settings:
-      rebuild: true
-      mount:
-        - ./node_modules
-
-volumes:
-  - name: cache
-    host:
-      path: /tmp/cache
 
 trigger:
   event:
