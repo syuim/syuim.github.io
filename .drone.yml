@@ -20,6 +20,11 @@ steps:
       target: /root/env/blog
       source: ./public
 
+  - name: finish
+    image: curlimages/curl
+    commands:
+      - /bin/sh bark.sh
+
 trigger:
   event:
   - push
