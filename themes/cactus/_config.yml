@@ -187,12 +187,12 @@ baidu_analytics:
 
 # Fill in your Cloudflare Analytics tracking ID to enable Cloudflare Analytics.
 cloudflare_analytics:
-  enabled: true
+  enabled: false
   id: 2cf2b708e6084d0e91c70635bbd6e915
 
 # Fill in your Umami Analytics tracking ID to enable Umami Analytics.
 umami_analytics:
-  enabled: false
+  enabled: true
   id: de951896-4377-4e80-8fae-6927a4405705
   host: https://umami.laoz.org
   script_name: script.js
