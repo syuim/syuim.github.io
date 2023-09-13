@@ -192,7 +192,7 @@ cloudflare_analytics:
 
 # Fill in your Umami Analytics tracking ID to enable Umami Analytics.
 umami_analytics:
-  enabled: true
+  enabled: false
   id: de951896-4377-4e80-8fae-6927a4405705
   host: https://umami.laoz.org
   script_name: script.js
