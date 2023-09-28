@@ -1,7 +1,7 @@
 ---
 title: Ubuntu配置oh-My-Zsh
 date: 2023-05-02 16:28:39
-cover: https://static.laoz.org/AOnLy9.webp
+cover: https://img.laoz.org/6801d39c8afa786ba1a5a9442b8da732.webp
 tags: 
 - Linux
 - Oh-my-zsh
@@ -10,7 +10,7 @@ categories:
 description: 记录下如何快速打造下ubuntu的舒服的命令界面。
 ---
 
-![oh-my-zsh](https://static.laoz.org/AOnLy9.webp)
+![oh-my-zsh](https://img.laoz.org/6801d39c8afa786ba1a5a9442b8da732.webp)
 
 ## 1.安装zsh
 
