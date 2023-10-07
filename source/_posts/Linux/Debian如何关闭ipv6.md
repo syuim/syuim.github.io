@@ -17,7 +17,7 @@ cover: https://img.laoz.org/925ab92a97e746fe59c73671eab25b52.webp
  sudo nano /etc/sysctl.conf
  ```
 
-## 2. 在文件的末尾添加以下行以禁用IPv6
+## 2. 在文件的末尾添加以下行
 
 ```shell
 # 禁用IPv6
