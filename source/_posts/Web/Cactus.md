@@ -95,7 +95,7 @@ cdn:
 ```ejs
 <!-- twikoo Comments -->
 <% if (page.comments && theme.twikoo.enabled) {%>
-  <script src="https://cdn.bootcdn.net/ajax/libs/twikoo/1.6.16/twikoo.all.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/twikoo/1.6.17/twikoo.all.min.js"></script>
   <script>
     twikoo.init({
       envId: 'xxxxxxx', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
