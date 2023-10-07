@@ -1,6 +1,7 @@
-# blog.laoz.org
+# laoz.org
 
 ## 主题
+
 主题是Hexo的仙人掌
 
 修复：
