@@ -107,8 +107,8 @@ deploy:
 
 feed:
   enable: true
-  type: atom
-  path: atom.xml
+  type: rss2
+  path: rss.xml
   limit: 20
   hub:
   content: true
