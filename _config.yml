@@ -107,12 +107,12 @@ deploy:
 
 feed:
   enable: true
-  type: rss2
-  path: rss.xml
+  type: atom
+  path: atom.xml
   limit: 20
   hub:
-  content:
-  content_limit: 140
+  content: true
+  content_limit: 1400
   content_limit_delim: ' '
   order_by: -date
   icon: logo.png
