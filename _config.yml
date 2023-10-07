@@ -115,7 +115,7 @@ feed:
   content_limit: 1400
   content_limit_delim: ' '
   order_by: -date
-  icon: logo.png
+  icon: images/dog.png
   autodiscovery: true
   template:
 
