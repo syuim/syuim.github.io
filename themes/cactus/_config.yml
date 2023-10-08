@@ -130,7 +130,7 @@ favicon:
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
 # Alternatively, add your own custom color scheme to source/css/_colors.
-colorscheme: white
+colorscheme: dark
 
 # Maximal width of the page in rem units.
 page_width: 55
@@ -177,7 +177,7 @@ twikoo:
 
 giscus:
   enabled: true
-  theme: light_tritanopia
+  theme: dark_tritanopia #light_tritanopia
   
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
 google_analytics:
