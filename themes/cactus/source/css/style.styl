@@ -33,11 +33,11 @@ global-reset()
 *::-webkit-scrollbar-thumb:active
   background-color: darken($color-scrollbar, 30%)
 
+
 html
   margin: 0
   padding: 0
   height: 100%
-  border-top: 2px solid $color-text
   -webkit-text-size-adjust: 100%
   -ms-text-size-adjust: 100%
 
@@ -56,6 +56,13 @@ body
 
   @extend $base-style
 
+.dark-mode-bg
+  background-color: #1d1f21
+  
+
+.dark-mode-color
+  color: #c9cacc
+  
 .content
   position: relative
   display: flex
@@ -162,11 +169,17 @@ pre
     padding: 0
     border: none
 
+pre.dark-mode
+  border: 1px dotted $color-border
+
 code
   padding: 0 5px
   border: 1px dotted $color-border
   border-radius: 2px
   -webkit-border-radius: 2px
+
+.highlight-dark-mode
+    background: lighten(#1d1f21, 2%) !important
 
 .highlight
   overflow-x: auto

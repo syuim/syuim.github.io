@@ -38,7 +38,7 @@ social_links:
     link: https://t.me/laozorg
   -
     icon: mail
-    link: mailto:oldchow.zsh@gmail.com
+    link: mailto:laoz@laoz.org
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -173,7 +173,11 @@ utterances:
   theme: github-light
 
 twikoo:
+  enabled: false
+
+giscus:
   enabled: true
+  theme: light_tritanopia
   
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
 google_analytics:
