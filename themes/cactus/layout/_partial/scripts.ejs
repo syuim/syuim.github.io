@@ -156,7 +156,8 @@ if (currentTime < 9 || currentTime >= 18) {
   mycss='https://giscus.app/themes/light_tritanopia.css';
 }
 %>
-
+<%= currentTime%>
+<%= (currentTime < 9 || currentTime >= 18)%>
 <% if (page.comments && theme.giscus.enabled) {%>
 <script src="https://giscus.app/client.js"
         data-repo="laozorg/laozorg.github.io"
