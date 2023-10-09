@@ -4,7 +4,6 @@
     var isNight = currentTime < 9 || currentTime >= 18;
     // 根据时间设置夜间模式
     if (isNight) {
-
         document.documentElement.style.setProperty('--color-background', '#1d1f21');
         document.documentElement.style.setProperty('--color-footer-mobile-1', '#212326');
         document.documentElement.style.setProperty('--color-footer-mobile-2', '#323539');
