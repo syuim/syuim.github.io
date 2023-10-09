@@ -148,31 +148,13 @@
 <% } %>
 
 <!-- giscus Comments -->
-<script>
-  // 使用 JavaScript 获取时区信息
-  var timezoneOffset = new Date().getTimezoneOffset();
-  var timezone = timezoneOffset / 60;
-  console.log("Timezone: " + timezone);
-</script>
-<script>
-  // 使用 JavaScript 获取浏览器时间
-  var currentTime = new Date();
-  var hour = currentTime.getHours();
-  var minute = currentTime.getMinutes();
-  var second = currentTime.getSeconds();
-  var browserTime = hour + ":" + minute + ":" + second;
-  console.log("Browser Time: " + browserTime);
-</script>
-
 <% var currentTime = new Date().getHours(); var mycss=''; 
-if (currentTime < 9 || currentTime >= 18) {
-  mycss='https://giscus.app/themes/dark_dimmed.css';
-}else{
-  mycss='https://giscus.app/themes/light_tritanopia.css';
-}
-%>
-<%= currentTime%>
-<%= (currentTime < 9 || currentTime >= 18)%>
+  if (currentTime+8 < 9 || currentTime+8 >= 18) {
+    mycss='https://giscus.app/themes/dark_dimmed.css';
+  }else{
+    mycss='https://giscus.app/themes/light_tritanopia.css';
+  }
+  %>
 <% if (page.comments && theme.giscus.enabled) {%>
 <script src="https://giscus.app/client.js"
         data-repo="laozorg/laozorg.github.io"
