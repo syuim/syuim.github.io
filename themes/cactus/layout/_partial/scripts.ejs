@@ -148,8 +148,8 @@
 <% } %>
 
 <!-- giscus Comments -->
-<% var currentTime = new Date().getHours(); var mycss=''; 
-  if (currentTime+8 < 9 || currentTime+8 >= 18) {
+<% var currentTime = new Date().getHours()+8; var mycss=''; 
+  if (currentTime < 9 || currentTime >= 18) {
     mycss='https://giscus.app/themes/dark_dimmed.css';
   }else{
     mycss='https://giscus.app/themes/light_tritanopia.css';
