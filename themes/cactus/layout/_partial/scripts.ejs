@@ -148,16 +148,10 @@
     </script>
 <% } %>
 
+
 <!-- giscus Comments -->
-<% var currentTime = new Date().getHours()+8; var mycss=''; 
-  if (currentTime < 9 || currentTime >= 18) {
-    mycss='https://giscus.app/themes/dark_dimmed.css';
-  }else{
-    mycss='https://giscus.app/themes/light_tritanopia.css';
-  }
-  %>
-<%=currentTime%>
-<% if (page.comments && theme.giscus.enabled) {%>
+<% var currentTime = new Date().getHours()+8;
+if (currentTime < 9 || currentTime >= 18){%>
 <script src="https://giscus.app/client.js"
         data-repo="laozorg/laozorg.github.io"
         data-repo-id="R_kgDOKQg7Pw"
@@ -168,13 +162,30 @@
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="top"
-        data-theme="<%= mycss%>"
+        data-theme="dark_dimmed"
         data-lang="zh-CN"
         data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>
-<% } %>
+<% } else {%>
+  <script src="https://giscus.app/client.js"
+  data-repo="laozorg/laozorg.github.io"
+  data-repo-id="R_kgDOKQg7Pw"
+  data-category="Announcements"
+  data-category-id="DIC_kwDOKQg7P84CZ83N"
+  data-mapping="url"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="light_tritanopia"
+  data-lang="zh-CN"
+  data-loading="lazy"
+  crossorigin="anonymous"
+  async>
+</script>
+<%} %>
 
 
 
