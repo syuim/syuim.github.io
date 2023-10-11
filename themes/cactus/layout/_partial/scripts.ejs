@@ -150,6 +150,8 @@
 
 
 <!-- giscus Comments -->
+<% var time=Date.now()%> 
+<% if (page.comments && theme.giscus.enabled) {%>
 <% var currentTime = new Date().getHours()+8;
 if (currentTime < 9 || currentTime >= 18){%>
 <script src="https://giscus.app/client.js"
@@ -186,6 +188,8 @@ if (currentTime < 9 || currentTime >= 18){%>
   async>
 </script>
 <%} %>
+<% } %>
+<%=currentTime%> 
 
 
 
