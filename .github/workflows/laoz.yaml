@@ -46,4 +46,3 @@ jobs:
         uses: cloudflare/wrangler-action@v3.1.0
         with:
           apiToken: ${{ secrets.CF_WORKERS_TOKEN }}
-          workingDirectory: "workers-site"
