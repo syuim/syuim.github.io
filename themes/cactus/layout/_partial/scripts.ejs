@@ -169,10 +169,12 @@
 <% } %>
 
 <script>
-  console.log(new Date().getHours())
- new Date().getHours()< 9 ||new Date().getHours()>=18?
- document.getElementById('giscus-js').setAttribute('data-theme','dark_dimmed'):
- document.getElementById('giscus-js').setAttribute('data-theme','light_tritanopia');
+  var e=document.getElementById('giscus-js')
+  if(e){
+    new Date().getHours()< 9 ||new Date().getHours()>=18?
+    e.setAttribute('data-theme','dark_dimmed'):
+    e.setAttribute('data-theme','light_tritanopia');
+  }
 </script>
 
 

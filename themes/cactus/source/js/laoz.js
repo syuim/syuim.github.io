@@ -41,5 +41,4 @@
         document.documentElement.style.removeProperty('--color-accent-1');
         document.documentElement.style.removeProperty('--color-quote'); 
         document.documentElement.style.removeProperty('--highlight');
-        document.getElementById('giscus').setAttribute('data-theme','light_tritanopia')
     }
