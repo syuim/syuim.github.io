@@ -133,7 +133,7 @@ favicon:
 colorscheme: white
 
 # Maximal width of the page in rem units.
-page_width: 55
+page_width: 45
 
 
 ##############################################################################
@@ -196,7 +196,7 @@ cloudflare_analytics:
 
 # Fill in your Umami Analytics tracking ID to enable Umami Analytics.
 umami_analytics:
-  enabled: false
+  enabled: true
   id: a4f2247f-71ea-4efe-ac28-37b33e72aa7d
   host: https://umami.laoz.org
   script_name: script.js
