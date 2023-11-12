@@ -14,8 +14,8 @@ steps:
     settings:
       host: npm.laoz.org
       username: root
+      password: psw
       port: 10086
-      key: key
       target: /root/env/npm/data
       source: ./public
 
