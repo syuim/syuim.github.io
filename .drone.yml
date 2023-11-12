@@ -17,7 +17,7 @@ steps:
       password: 
         from_secret: psw
       port: 10086
-      target: /root/env/npm/data
+      target: /root/env/npm/data/blog
       source: ./public
 
   - name: finish
