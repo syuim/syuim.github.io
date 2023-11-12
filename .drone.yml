@@ -12,12 +12,10 @@ steps:
   - name: deploy
     image: appleboy/drone-scp
     settings:
-      host: cu.laoz.org
+      host: npm.laoz.org
       username: root
-      password: 
-        from_secret: psw
-      port: 13223
-      target: /root/env/blog
+      port: 10086
+      target: /root/env/npm/data
       source: ./public
 
   - name: finish
