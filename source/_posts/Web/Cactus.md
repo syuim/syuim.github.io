@@ -7,17 +7,17 @@ tags:
 categories:
   - Hexo
 date: 2023-08-08 08:14:59
-cover: https://img.laoz.org/38c66a3b99ee5ab4e7d5b8f3d44af77e.webp
+cover: https://pic.laoz.org/i/2023/11/13/tyea2q-0.webp
 ---
-![Cactus](https://img.laoz.org/38c66a3b99ee5ab4e7d5b8f3d44af77e.webp)
+![Cactus](https://pic.laoz.org/i/2023/11/13/tyea2q-0.webp)
 
 Cactus可能是众多Hexo主题中比较小众且满足我个人审美的主题了，但是也有不少bug，这边记录下怎么优化以及新增一些自己需要的功能。
 
 Cactus github地址：[https://github.com/probberechts/hexo-theme-cactus](https://github.com/probberechts/hexo-theme-cactus)
 
 ## 1.主题加速
->
-> 主题中大多数使用的css和js都使用jsdelivr或者cf的cdn，但是jsdelivr自从备案掉了之后迅速地被污染了。所以在正常的网络环境下是下载不了这些样式文件的，虽然这些文件打开一次之后会被浏览器缓存下来，但是作为一个速度敏感的程序员👨🏻‍💻来说，受不了自己的博客打开这么慢，把能改进的都改进了。
+
+>主题中大多数使用的css和js都使用jsdelivr或者cf的cdn，但是jsdelivr自从备案掉了之后迅速地被污染了。所以在正常的网络环境下是下载不了这些样式文件的，虽然这些文件打开一次之后会被浏览器缓存下来，但是作为一个速度敏感的程序员👨🏻‍💻来说，受不了自己的博客打开这么慢，把能改进的都改进了。
 
 国内cdn加速有很多，这边给出一个参考 [https://www.bootcdn.cn/index.html](https://www.bootcdn.cn/index.html)。自己选择适合自己的就好。
 
@@ -36,9 +36,8 @@ cdn:
 
 以jquery为例，打开bootcdn，搜索jquery，选择相同文件名，赋值相应链接即可。
 
-![BvnRuc](https://img.laoz.org/6022f73dc49668754cc5fb9a9cc8ae95.webp)
-![60gesu](https://img.laoz.org/352bf9f8d03958eab5da2eb657099174.webp)
-
+![BvnRuc](https://pic.laoz.org/i/2023/11/13/tyeehu-0.webp)
+![60gesu](https://pic.laoz.org/i/2023/11/13/tyejaf-0.webp)
 
 修改后主题_config.yml:
 
@@ -56,8 +55,8 @@ cdn:
 这样替换之后，网站的加载速度瞬间就上来了，不会一直在pending中请求资源文件。
 
 ## 2.主题字体替换
->
-> Cactus似乎用的是本地的字体，网站加载的时候会下载整个字体文件，这样也会拖累加载速度，使用webFont可以将字体切分并只下载所需字体文件，所以替换字体也算是加速的一种方式。
+
+>Cactus似乎用的是本地的字体，网站加载的时候会下载整个字体文件，这样也会拖累加载速度，使用webFont可以将字体切分并只下载所需字体文件，所以替换字体也算是加速的一种方式。
 
 个人喜欢霞鹜文楷，就以此字体来替换整体主题字体吧。
 
@@ -72,13 +71,13 @@ cdn:
 ```
 
 然后再全局搜索定位font-family-body，将值"LXGW WenKai Screen R" 添加到最前面就能把改字体作为第一优先级的字体展示。再刷新一下博客就可以看到字体已经变了。
-![](https://img.laoz.org/907e6227ba3dcf48ea6f7c1a7ba9af60.webp)
+![](https://pic.laoz.org/i/2023/11/13/tyepid-0.webp)
 
 > ps: 浏览器开发工具发现请求网页的时候会请求两次字体文件，发现主题文件中还是用了另一个字体font-family-mono，这样加载页面的时候，使用这个样式的地方就会就会再请求一遍字体，显然没必要。直接搜索定位使用了该字体的样式文件，删了字体样式就好了。
 
 ## 3.Twikoo评论添加
->
-> Cactus只有两个评论插件，都是国外的，感觉有点难用，一个是老牌Diaus，一个基于Github。看中Twikoo只有一个，评论消息推送，支持Telegram,Bark等。
+
+>Cactus只有两个评论插件，都是国外的，感觉有点难用，一个是老牌Diaus，一个基于Github。看中Twikoo只有一个，评论消息推送，支持Telegram,Bark等。
 
 参考[Twikoo官网](https://twikoo.js.org/)部署之后，发现不在支持的主题内，但是可以自己修改代码添加。
 

@@ -7,9 +7,9 @@ tags:
 categories:
   - Linux
 date: 2023-10-07 16:36:06
-cover: https://img.laoz.org/925ab92a97e746fe59c73671eab25b52.webp
+cover: https://pic.laoz.org/i/2023/11/13/tw48s4-0.webp
 ---
-![debian](https://img.laoz.org/925ab92a97e746fe59c73671eab25b52.webp)
+![debian](https://pic.laoz.org/i/2023/11/13/tw48s4-0.webp)
 
 ## 1. 打开sysctl配置文件
 
