@@ -1,6 +1,5 @@
     // 获取当前时间
     var currentTime = new Date().getHours();
-    console.log(currentTime)
     // 判断是否是夜间（假设夜间为晚上 8 点到早上 6 点）
     var isNight = currentTime < 9 || currentTime >= 18;
     // 根据时间设置夜间模式
