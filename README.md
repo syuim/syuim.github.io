@@ -1,5 +1,7 @@
 # laoz.org
 
+[![Build Status](https://ci.laoz.org/api/badges/laozorg/laozorg.github.io/status.svg?ref=refs/heads/main)](https://ci.laoz.org/laozorg/laozorg.github.io)
+
 ## 主题
 
 主题是Hexo的仙人掌
