@@ -10,6 +10,14 @@ date: 2023-10-07 16:36:06
 cover: https://pic.laoz.org/i/2023/11/13/tw48s4-0.webp
 ---
 ![debian](https://pic.laoz.org/i/2023/11/13/tw48s4-0.webp)
+> update20221204:
+>
+> 在需要ipv6的时候可以设置ipv4优先：
+> 
+> sed -i 's/#precedence ::ffff:0:0\/96  100/precedence ::ffff:0:0\/96  100/' /etc/gai.conf
+>
+> ref:[Link](https://u.sb/debian-prefer-ipv4/)
+
 
 ## 1. 打开sysctl配置文件
 
@@ -40,3 +48,5 @@ ip a
 ```
 
 看不到以`inet6`开头的IPv6地址就代表成功了。
+
+
