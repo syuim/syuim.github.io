@@ -196,9 +196,9 @@ cloudflare_analytics:
 
 # Fill in your Umami Analytics tracking ID to enable Umami Analytics.
 umami_analytics:
-  enabled: false
-  id: a4f2247f-71ea-4efe-ac28-37b33e72aa7d
-  host: https://umami.laoz.org
+  enabled: true
+  id: 121fe70a-2f4b-48f6-9897-8701fd65fba9
+  host: https://ana.laoz.org
   script_name: script.js
 
 # Fill in you Gravatar email or hash if you want to use your gravatar as the
