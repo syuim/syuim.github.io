@@ -7,9 +7,9 @@ tags:
 categories:
   - Linux
 date: 2023-10-07 16:36:06
-cover: https://pic.laoz.org/i/2023/11/13/tw48s4-0.webp
+cover: https://img.laoz.org/i/2023/11/13/tw48s4-0.webp
 ---
-![debian](https://pic.laoz.org/i/2023/11/13/tw48s4-0.webp)
+![debian](https://img.laoz.org/i/2023/11/13/tw48s4-0.webp)
 > update20221204:
 >
 > 在需要ipv6的时候可以设置ipv4优先：
