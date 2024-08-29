@@ -1,0 +1,31 @@
+{{ if .Site.Params.comments.utteranc.enable }}
+<div class="comments">
+  <script>
+    const getTheme = window.localStorage && window.localStorage.getItem("theme");
+    let theme = getTheme === 'dark' ? 'github-dark' : 'github-light';
+    let s = document.createElement('script');
+    s.src = 'https://utteranc.es/client.js';
+    s.setAttribute('repo', '{{ .Site.Params.comments.utteranc.repo }}');
+    s.setAttribute('issue-term', '{{ .Site.Params.comments.utteranc.issueTerm }}');
+    s.setAttribute('theme', theme);
+    s.setAttribute('crossorigin', 'anonymous');
+    s.setAttribute('async', '');
+    document.querySelector('div.comments').innerHTML = '';
+    document.querySelector('div.comments').appendChild(s);
+  </script>
+</div>
+{{ end }}
+
+{{ if .Site.Params.comments.twikoo.enable }}
+<div id="tcomment"></div>
+<script  src="https://cdn.bootcdn.net/ajax/libs/twikoo/1.6.36/twikoo.all.min.js"></script>
+<script>
+  twikoo.init({
+    envId: 'https://twikoo.laoz.org', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+    el: '#tcomment', // 容器元素
+    // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+    // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+    // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
+  })
+</script>
+{{ end }}
