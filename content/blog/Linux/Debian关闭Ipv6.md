@@ -7,7 +7,9 @@ series : ['Linux']
 featured : true
 author: 苏御
 ---
-<!-- ![debian](https://img.laoz.org/i/2024/65b36e361d27c.webp) -->
+
+![debian](https:/pic.syu.im/d86a127e2aff320a9aa31e6d1fb4516d.webp)
+
 > update20221204:
 >
 > 在需要ipv6的时候可以设置ipv4优先：
@@ -45,4 +47,3 @@ ip a
 ```
 
 看不到以`inet6`开头的IPv6地址就代表成功了。
-
