@@ -8,7 +8,7 @@ featured : true
 author: 苏御
 ---
 
-![debian](https:/pic.syu.im/d86a127e2aff320a9aa31e6d1fb4516d.webp)
+![debian](https://pic.syu.im/d86a127e2aff320a9aa31e6d1fb4516d.webp)
 
 > update20221204:
 >
