@@ -8,8 +8,7 @@ featured : true
 author: 苏御
 ---
 
-![debian](https://pic.syu.im/d86a127e2aff320a9aa31e6d1fb4516d.webp)
-
+![debian](https://pic.syu.im/a347aea5a1f89c6ddefcddb62fb7455c.webp)
 > update20221204:
 >
 > 在需要ipv6的时候可以设置ipv4优先：
