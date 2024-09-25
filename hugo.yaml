@@ -39,7 +39,7 @@ params:
     # google:
     #   SiteVerificationTag: xxx
     umami:
-      enable: true
+      enable: false
       website_id: e30bca57-43e5-4787-8c67-b61bacbc0368
       url: https://ana.syu.im/script.js
     
