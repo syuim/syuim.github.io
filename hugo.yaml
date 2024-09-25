@@ -21,11 +21,11 @@ params:
   #darkModeTheme: icy-dark-mode
   comments:
     giscus:
-      enable: false
-      repo: laozorg/laozorg.github.io
-      repo_id: R_kgDOLVHMww
-      category: General
-      category_id: DIC_kwDOLVHMw84CdXUd
+      enable: true
+      repo: syuim/syuim.github.io
+      repo_id: R_kgDOMpyxLQ
+      category: Q&A
+      category_id: DIC_kwDOMpyxLc4CixEr
       mapping: url
       position: bottom
       lang: zh-CN # pick a language from https://github.com/giscus/giscus/tree/main/locales
@@ -34,7 +34,7 @@ params:
     #   repo: username/xxx
     #   issueTerm: pathname
     twikoo:
-      enable: true
+      enable: false
   analytics:
     # google:
     #   SiteVerificationTag: xxx
