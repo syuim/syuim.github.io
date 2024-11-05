@@ -15,7 +15,7 @@ author: 苏御
 >
 > sed -i 's/#precedence ::ffff:0:0\/96  100/precedence ::ffff:0:0\/96  100/' /etc/gai.conf
 >
-> ref:[Link](https://u.sb/debian-prefer-ipv4/)
+> ref：<a href="https://u.sb/debian-prefer-ipv4" target="_blank">Link</a>
 
 ## 1. 打开sysctl配置文件
 
