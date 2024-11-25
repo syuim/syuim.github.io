@@ -12,10 +12,10 @@ author: 苏御
 > update20221204:
 >
 > 在需要ipv6的时候可以设置ipv4优先：
+> 
+> sed -i 's/#precedence ::ffff:0:0\\/96  100/precedence ::ffff:0:0\\/96  100/' /etc/gai.conf
 >
-> sed -i 's/#precedence ::ffff:0:0\/96  100/precedence ::ffff:0:0\/96  100/' /etc/gai.conf
->
-> ref：<a href="https://u.sb/debian-prefer-ipv4" target="_blank">Link</a>
+> ref：[Link](https://u.sb/debian-prefer-ipv4){target="_blank"}
 
 ## 1. 打开sysctl配置文件
 
