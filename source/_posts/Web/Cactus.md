@@ -9,7 +9,6 @@ categories:
 date: 2023-08-08 08:14:59
 cover: https://img.laoz.org/i/2024/65b36e3a92c42.webp
 ---
-![Cactus](https://img.laoz.org/i/2024/65b36e3a92c42.webp)
 
 Cactus可能是众多Hexo主题中比较小众且满足我个人审美的主题了，但是也有不少bug，这边记录下怎么优化以及新增一些自己需要的功能。
 
@@ -36,8 +35,6 @@ cdn:
 
 以jquery为例，打开bootcdn，搜索jquery，选择相同文件名，赋值相应链接即可。
 
-![BvnRuc](https://img.laoz.org/i/2024/65b36e3c1cdda.webp)
-![60gesu](https://img.laoz.org/i/2024/65b36e3dd6655.webp)
 
 修改后主题_config.yml:
 
@@ -71,7 +68,6 @@ cdn:
 ```
 
 然后再全局搜索定位font-family-body，将值"LXGW WenKai Screen R" 添加到最前面就能把改字体作为第一优先级的字体展示。再刷新一下博客就可以看到字体已经变了。
-![blog](https://img.laoz.org/i/2024/65b36e3f17707.webp)
 
 > ps: 浏览器开发工具发现请求网页的时候会请求两次字体文件，发现主题文件中还是用了另一个字体font-family-mono，这样加载页面的时候，使用这个样式的地方就会就会再请求一遍字体，显然没必要。直接搜索定位使用了该字体的样式文件，删了字体样式就好了。
 
