@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Laoz's Blog
-subtitle: '老周的博客'
-description: 'Hi there👋🏻, 我是老周，标准程序员👨🏻‍💻，会一点点Java和Python，喜欢折腾。欢迎来到我的博客，随意看看。'
+title: Suyu's Blog
+subtitle: '苏御的博客'
+description: 'Hi there👋🏻, 我是苏御，标准程序员👨🏻‍💻，会一点点Java和Python，喜欢折腾。欢迎来到我的博客，随意看看。'
 keywords:
-author: Laoz
+author: Suyu
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.laoz.org
+url: https://syu.im
 permalink: :title/
 permalink_defaults:
 pretty_urls:
