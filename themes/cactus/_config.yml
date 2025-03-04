@@ -27,18 +27,18 @@ nav:
 # only 'mail' is an exception.
 # You can optionally add a 'label' key to set the title attribute on the link. 
 # 'icon' value will be used as title when 'label' is missing.
-social_links:
-  -
-    icon: github
-    label: github
-    link: https://github.com/laozorg
-  -
-    icon: telegram
-    label: telegram
-    link: https://t.me/laozorg
-  -
-    icon: mail
-    link: mailto:laoz@laoz.org
+# social_links:
+#   -
+#     icon: github
+#     label: github
+#     link: https://github.com/laozorg
+#   -
+#     icon: telegram
+#     label: telegram
+#     link: https://t.me/laozorg
+#   -
+#     icon: mail
+#     link: mailto:laoz@laoz.org
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
