@@ -11,10 +11,18 @@ function lazyProcess(htmlContent)  {
         if (/data-src/gi.test(str)) {
             return str;
         }
-        if (p3) {
-            return str.replace(p3, `${p3} class="lazyload" srcset="${loadingImage}" data-srcset="${p2}"`);
-        } else {
-            return str.replace(">", ` class="lazyload" srcset="${loadingImage}" data-srcset="${p2}">`);
+          // 检查是否已经存在<a>标签
+        if (/<a\b[^>]*>/gi.test(str)) {
+            return str;
         }
+        let imgTag;
+        if (p3) {
+            imgTag= str.replace(p3, `${p3} class="lazyload" srcset="${loadingImage}" data-srcset="${p2}"`);
+        } else {
+            imgTag= str.replace(">", ` class="lazyload" srcset="${loadingImage}" data-srcset="${p2}">`);
+        }
+
+        let aTag = `<a href="${p2}" data-fancybox>`;
+        return `${aTag}${imgTag}</a>`;
     });
 }
