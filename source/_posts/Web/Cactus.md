@@ -7,7 +7,7 @@ tags:
 categories:
   - Hexo
 date: 2023-08-08 08:14:59
-cover: https://img.laoz.org/i/2024/65b36e3a92c42.webp
+# cover: https://img.laoz.org/i/2024/65b36e3a92c42.webp
 ---
 
 Cactus可能是众多Hexo主题中比较小众且满足我个人审美的主题了，但是也有不少bug，这边记录下怎么优化以及新增一些自己需要的功能。

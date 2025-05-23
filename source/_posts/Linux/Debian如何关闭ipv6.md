@@ -7,7 +7,7 @@ tags:
 categories:
   - Linux
 date: 2023-10-07 16:36:06
-cover: https://img.laoz.org/i/2024/65b36e361d27c.webp
+# cover: https://img.laoz.org/i/2024/65b36e361d27c.webp
 ---
 > update20221204:
 >
